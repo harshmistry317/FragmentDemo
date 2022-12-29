@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().apply {
                 replace(R.id.frm_frg, scondfragment)
                 addToBackStack(null) // To use back button of phone to go back to previous fragment
-                
                 commit()
             }
         }
